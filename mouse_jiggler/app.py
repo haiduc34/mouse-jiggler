@@ -66,8 +66,8 @@ class MouseJigglerApp:
 
         self.variables = {
             "move_interval_ms": tk.StringVar(value="1000"),
-            "return_interval_ms": tk.StringVar(value="1000"),
-            "distance": tk.StringVar(value="10"),
+            "return_interval_ms": tk.StringVar(value="10"),
+            "distance": tk.StringVar(value="1"),
         }
         self.entries: dict[str, tk.Entry] = {}
 

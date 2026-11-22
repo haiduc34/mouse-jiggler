@@ -13,8 +13,8 @@ INT32_MAX = 2**31 - 1
 @dataclass(frozen=True, slots=True)
 class JigglerSettings:
     move_interval_ms: int = 1000
-    return_interval_ms: int = 1000
-    distance: int = 10
+    return_interval_ms: int = 10
+    distance: int = 1
     return_cursor: bool = True
 
 
